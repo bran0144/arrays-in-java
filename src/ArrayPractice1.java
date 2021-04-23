@@ -8,4 +8,17 @@ public class ArrayPractice1 {
             return false;
         }
     }
+    public boolean sameFirstLast(int[] nums) {
+        if(nums.length >= 1 && nums[0] == nums[nums.length-1]) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+    public int[] makePi() {
+        int[] piArray = new int[]{ 3,1,4 };
+        return piArray;
+    }
+
+
 }
