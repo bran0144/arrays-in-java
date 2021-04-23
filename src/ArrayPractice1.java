@@ -30,4 +30,9 @@ public class ArrayPractice1 {
     public int sum3(int[] nums) {
         return nums[0] + nums[1] + nums[2];
     }
+    public int[] rotateLeft3(int[] nums) {
+        int[] intArray = new int[]{ nums[1], nums[2], nums[0]};
+        return intArray;
+    }
+
 }
