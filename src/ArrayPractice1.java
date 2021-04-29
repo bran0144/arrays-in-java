@@ -28,6 +28,15 @@ public class ArrayPractice1 {
         int[] intArray = new int[]{ nums[2], nums[1], nums[0]};
         return intArray;
     }
+    public int sum2(int[] nums) {
+        if(nums.length == 0) {
+            return 0;
+        }else if(nums.length ==1){
+            return nums[0];
+        }else {
+            return (nums[0] + nums[1]);
+        }
+    }
 
 
 }
