@@ -37,6 +37,15 @@ public class ArrayPractice1 {
             return (nums[0] + nums[1]);
         }
     }
+    public int[] middleWay(int[] a, int[] b) {
+        int[] intArray = new int[] {a[1], b[1]};
+        return intArray;
+    }
+    public int[] makeEnds(int[] nums) {
+        int[] intArray = new int[] {nums[0], nums[nums.length-1]};
+        return intArray;
+    }
+
 
 
 }
